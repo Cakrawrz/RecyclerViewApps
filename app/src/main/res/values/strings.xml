@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RecyclerViewApps</string>
+    <string name="list">Profie</string>
+
+
+    <string-array name="data_images">
+        <item>@drawable/alasprambon</item>
+        <item>@drawable/candipari</item>
+        <item>@drawable/candisumur</item>
+        <item>@drawable/gor</item>
+        <item>@drawable/jayandaru</item>
+        <item>@drawable/kampungjetis</item>
+        <item>@drawable/masjidagung</item>
+        <item>@drawable/museum</item>
+        <item>@drawable/suncity</item>
+        <item>@drawable/wisatatlocor</item>
+    </string-array>
+
+
+    <string-array name="data_titles">
+        <item>Wisata Alas Prambon</item>
+        <item>Monumen Candi Pari</item>
+        <item>Monumen Candi Sumur</item>
+        <item>GOR (Gedung Olahraga)</item>
+        <item>Monumen Jayandaru</item>
+        <item>Wisata Kampung Batik Jetis</item>
+        <item>Wisata Masjid Agung</item>
+        <item>Museum Mpu Tantular</item>
+        <item>Wisata Air Suncity</item>
+        <item>Wisata Alam Tlocor</item>
+    </string-array>
+
+
+    <string-array name="data_details">
+        <item>Alas Prambon - Wisata edukasi dan outbound untuk anak di Sidoarjo.</item>
+        <item>Candi Pari merupakan peninggalan dari Kerajaan Majapahit.</item>
+        <item>Candi Sumur adalah sebuah peninggalan masa Klasik yang terletak di Kabupaten Sidoarjo.</item>
+        <item>Kompleks olahraga ini menjadi rumah bagi Stadion Gelora Delta, Gedung Olahraga GOR Sidoarjo, Lapangan Tenis GOR Sidoarjo dan Kolam Renang GOR Sidoarjo.</item>
+        <item>Monumen Jayandaru yang berlokasi di jantung Kabupaten Sidoarjo. Tepatnya di Jalan Jenggolo 21, Sidokumpul, Sidoarjo</item>
+        <item>batik Jetis khas Sidoarjo masih menggunakan warna bawah hitam, seperti cokelat soga dan pola penggambaran yang sederhana.</item>
+        <item>Masjid Jamik Agung Sidoarjo atau sering disebut Masjid Agung Sidoarjo ini berdiri sejak tahun 1859</item>
+        <item>museum ini bernama Stedelijk Historisch Museum Soerabaia, didirikan oleh Godfried von Faber pada tahun 1933 dan diresmikan pada tanggal 25 Juli 1937.</item>
+        <item>Wisata kolam renang yang berlokasi di Sidoarjo.</item>
+        <item>Wisata bahari tlocor penyedia jasa penyebrangan ke pulau lusi yang dibentuk oleh pokdarwis dibawah naungan BUMDesa Desa Kedungoandan </item>
+    </string-array>
+</resources>
