@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">RecyclerViewApps</string>
-    <string name="list">Profie</string>
+    <string name="list">About</string>
+    <string name="email">cakradwi1@gmail.com</string>
 
 
     <string-array name="data_images">
@@ -32,8 +33,31 @@
 
 
     <string-array name="data_details">
-        <item>Alas Prambon - Wisata edukasi dan outbound untuk anak di Sidoarjo.</item>
-        <item>Candi Pari merupakan peninggalan dari Kerajaan Majapahit.</item>
+        <item>Alas Prambon - Wisata edukasi dan outbound untuk anak di Sidoarjo.
+            Adapun urutan kegiatan alas prambon sebagai berikut :
+
+            1.Penjemputan Kereta Kelinci
+            2.Ice Breaking + fun games
+            3.Flying Fox
+            4.Merangkak
+            5.Langkah lebar
+            6.Spiderweb ( jaring laba-laba )
+            7.Jembatan Birma
+            8.Jaring Merayap
+            9.Jaring titian
+            10.Line bridge
+            11.Edukasi perikanan
+            12.Edukasi peternakan
+            13.Edukasi pertanian
+            14.Edukasi Satwa
+            15.Menangkap ikan ( Khusus PG TK )
+            16.Bermain Lumpur ( Khusus SD )
+            17.Renang
+            18.Makan siang
+        </item>
+        <item>Candi Pari merupakan peninggalan dari Kerajaan Majapahit. Sebagai peninggalan Kerajaan Majapahit, Candi Pari memiliki ciri khas bangunan Majapahit berupa bangunan berbahan baku bata merah. Disebutkan NJ Krom, dalam penelitiannya yang termuat dalam buku Inleading Tot de Hindoe Javansch Khust pada tahun 1923, bahwa Candi Pari mendapat pengaruh dari Campa, khususnya candi di Mison. Selain fakta sejarah yang mengungkapkan Candi Pari sebagai bagian benda purbakala. Candi Pari juga memiliki cerita rakyat yang terangkum dalam asal-usul Candi Pari. Cerita rakyat merupakan cerita dari zaman dahulu yang berkembang dari mulut ke mulut.
+Artikel ini telah tayang di Kompas.com dengan judul "Asal-usul Candi Pari dan Pesan Moral, Cerita Rakyat Jawa Timur". Kiai Gede Penanggungan dikenal sakti dan memiliki kekuatan gaib. Selain itu, Kiai Gede Penanggungan juga mempunyai seorang putri yang cantik. Putri tersebut bernama Dewi Walangangin. Meskipun cantik, namun Dewi Walangangin belum menikah. Untuk itu, Kiai Gede Penanggungan berdoa siang dan malam agar putrinya segera menikah. Suatu ketika datang pemuda tampan ke rumahnya. Pemuda yang bernama Jaka Pandelegan tersebut ingin menjadi muridnya untuk menimba ilmu. Kiai Gede Penanggungan memenuhi permintaan pemuda tersebut dengan satu syarat, yakni menikahi putrinya. Jaka Pandelegan pun sepakat akan menikahi putri Kiai Gede Penanggungan.
+        </item>
         <item>Candi Sumur adalah sebuah peninggalan masa Klasik yang terletak di Kabupaten Sidoarjo.</item>
         <item>Kompleks olahraga ini menjadi rumah bagi Stadion Gelora Delta, Gedung Olahraga GOR Sidoarjo, Lapangan Tenis GOR Sidoarjo dan Kolam Renang GOR Sidoarjo.</item>
         <item>Monumen Jayandaru yang berlokasi di jantung Kabupaten Sidoarjo. Tepatnya di Jalan Jenggolo 21, Sidokumpul, Sidoarjo</item>
@@ -43,4 +67,39 @@
         <item>Wisata kolam renang yang berlokasi di Sidoarjo.</item>
         <item>Wisata bahari tlocor penyedia jasa penyebrangan ke pulau lusi yang dibentuk oleh pokdarwis dibawah naungan BUMDesa Desa Kedungoandan </item>
     </string-array>
+
+    <string name="detail_a">Alas Prambon merupakan salah satu destinasi wisata yang menarik perhatian banyak orang, baik lokal maupun wisatawan dari luar daerah. Terletak di desa Simpang, kecamatan Prambon, Kabupaten Sidoarjo, tempat ini menawarkan pengalaman yang unik dalam menggali kedekatan dengan alam sambil mengembangkan kekompakan antar kelompok dan meningkatkan ketahanan fisik serta mental melalui kegiatan Outbound. Kegiatan Outbound yang ditawarkan di Alas Prambon memiliki beragam aktivitas seru dan menyenangkan yang telah terbukti menjadi daya tarik bagi pengunjung dari berbagai kalangan. Mulai dari rombongan murid tingkat TK dan SD hingga kelompok tim kantor, Alas Prambon selalu ramai dikunjungi oleh mereka yang ingin mengadakan kegiatan yang mengasyikkan serta bermanfaat. Menurut beberapa pengunjung yang telah merasakan langsung kegiatan Outbound di Alas Prambon, mereka merasa sangat terbantu dalam mengembangkan kerjasama tim, meningkatkan kepercayaan diri, serta memperkuat ketahanan mental dan fisik.</string>
+    <string name="detail_b">Salah satu situs yang dapat dijumpai hingga saat ini yaitu Candi Pari. Lokasi situs tersebut terletak di Desa Candi Pari, Kecamatan Porong. Atau sekitar 8 kilometer dari arah pusat kota.
+Menurut batu yang tertulis di atas gerbang, candi ini dibangun pada tahun 1293 saka atau 1371 masehi. Pada saat itu Majapahit berada pada masa pemerintahan Raja Hayam Wuruk.
+Penjaga Wisata Candi Pari, Semin menjelaskan, pada zaman dahulu terdapat seorang perjaka yang menanam padi dengan hasil melimpah.
+“Namanya Joko Pandelegan menanam padi, hasilnya berlimpah-limpah, lalu Raja Hayam Wuruk tahu dan menyuruh adipatinya untuk memanggil ke kerajaan,” jelasnya.
+Meski mendapat panggilan dari raja, imbuh Semin, perjaka tersebut tidak mau datang. Sehingga Raja Hayam Wuruk datang secara langsung ke lokasi tersebut.
+“Akan tetapi Joko Pandelegan hilang, orang Jawa namanya hilang mukso,” ujarnya.
+Sewaktu perjaka tersebut hilang, tumbuhan padi terlihat melimpah oleh Raja Hayam Wuruk. Karena itu untuk memperingati hilangnya Joko Pandelegan itulah Candi Pari tersebut dibangun.
+Situs Candi Pari pertama kali ditemukan pada 16 Oktober 1906 oleh Pemerintah Kolonial Hindia Belanda. Kemudian dipugar pada tahun 1992 dan 1996 pada Pemerintahan Presiden Soeharto.
+Candi Pari itu berbentuk bangunan bersegi empat yang terbuat dari batu bata dan sebuah pintu yang menghadap ke arah barat. Tidak seperti kebanyakan candi-candi di Jawa Timur, bentuk atap Candi Pari ternyata mirip dengan atap candi yang ditemukan di Kamboja dan Vietnam.</string>
+    <string name="detail_c">Candi Sumur di Dusun Candi Pari Wetan, Desa Candi Pari, Kecamatan Porong, Kabupaten Sidoarjo.
+Candi ini diyakini salah satu peninggalan Kerajaan Majapahit di daerah Sidoarjo. Berbeda dengan kebanyakan candi di Mojokerto yang ditemukan melalui proses ekskavasi.
+Candi Sumur sudah berdiri dalam bentuk utuh dan ditemukan tanpa proses ekskavasi. Diperkirakan, Candi Sumur ini dibangun pada tahun 1371 Masehi.
+”Jadi Candi Sumur ini memang berdiri di era Kerajaan Majapahit, tahun pembangunannya juga sama dengan Candi Pari,” ungkap Ruspandi, juru pelihara Candi Sumur, Selasa (30/1).
+Letak Candi Sumur kurang lebih berjarak 150 meter dari Candi Pari. Nama Candi Sumur berasal dari temuan sumur di tengah bangunan candi yang kini kondisinya mengering.
+Bangunan Candi Sumur tersusun dari batu bata merah yang di antaranya mulai lapuk. ”Dulu sebelum candi didirikan, di tempat ini memang sudah ada sumurnya, tetapi hanya berupa sumur biasa,” tambahnya.
+Ruspandi menjelaskan, berdirinya Candi Sumur tidak lepas dari sejarah Candi Pari. Cerita yang beredar, konon Candi Sumur dan Candi Pari sengaja dibangun untuk mengenang kisah suami istri, yang berjasa kapada Kerajaan Majapahit.</string>
+    <string name="detail_d">Gelanggang Olahraga (GOR) Sidoarjo adalah sebuah kompleks olahraga serbaguna di Kabupaten Sidoarjo, Jawa Timur, Indonesia. Kompleks olahraga ini menjadi rumah bagi Stadion Gelora Delta, Gedung Olahraga GOR Sidoarjo, Lapangan Tenis GOR Sidoarjo dan Kolam Renang GOR Sidoarjo.
+serbaguna di Sidoarjo, Jawa Timur, Indonesia. Stadion ini lebih sering dipergunakan untuk menggelar pertandingan sepak bola. Stadions ini memiliki kapasitas untuk 35.000 orang. Stadion kebanggaan rakyat Sidoarjo ini adalah kandang dari klub sepak bola terkenal dari Sidoarjo bernama Deltras FC dan sempat di pakai oleh Bhayangkara FC dan Persebaya Surabaya.
+    </string>
+    <string name="detail_e">Warga Sidoarjo merapat! Sebagian warga Sidoarjo pasti tak asing lagi dengan Monumen Jayandaru yang berlokasi di jantung Kabupaten Sidoarjo. Tepatnya di Jalan Jenggolo 21, Sidokumpul, Sidoarjo.
+Monumen Jayandaru memiliki tinggi 23 meter dan lebar alas 75,8 meter. Bagian atas terdapat replika udang dan bandeng sebagai ikon Kota Delta, Sidoarjo. Lalu, ada patung di sekelilingnya yang menggambarkan masyarakat.Monumen Jayandaru diresmikan pada 29 Mei 2015. Pembangunan monumen ini dipersembahkan oleh PT Sekar Laut Tbk. Yakni perusahaan yang bergerak di bidang pengolahan produk kelautan di Sidoarjo. Monumen Jayandaru diresmikan pada 29 Mei 2015. Pembangunan monumen ini dipersembahkan oleh PT Sekar Laut Tbk. Yakni perusahaan yang bergerak di bidang pengolahan produk kelautan di Sidoarjo. Sejak berdiri, Monumen Jayandaru telah menjadi ikon Sidoarjo. Monumen ini juga menjadi tempat nongkrong segala usia. Masyarakat kerap menghabiskan waktu dengan nongkrong di sekitar monumen ini. Anda pun juga bisa berfoto-foto dengan latar belakang Monumen Jayandaru sebagai kenang-kenangan.
+    </string>
+    <string name="detail_f">Sidoarjo menjadi salah satu kota dengan potensi ekonomi penghasil kerajinan batik. Kampung Batik Jetis masih eksis sejak tahun 1675, dan perajin batik menjadi mata pencaharian utama warga setempat.
+Pemerintah daerah setempat meresmikan Kampung Batik Jetis sebagai daerah produksi batik tulis tradisional khas Sidoarjo pada 3 Mei 2008. Peresmian dilakukan sebagai upaya memperkenalkan batik Jetis. Mulanya, batik Jetis khas Sidoarjo masih menggunakan warna bawah hitam, seperti cokelat soga dan pola penggambaran yang sederhana. Namun, melonjaknya minat konsumen yang didominasi masyarakat di daerah pesisir yang cenderung menyukai warna cerah menimbulkan motif mencolok pada batik Jetis. Pada tahun 1980an, muncul motif-motif batik Jetis modern yang cukup populer, di antaranya motif Beras Utah, Kembang Bayem, dan Kembang Tebu. Ketiga motif tersebut merupakan bentuk visualisasi dari hasil bumi yang banyak ditemukan di wilayah Sidoarjo.
+Kini telah terjadi pergeseran motif asli batik Jetis sebagai akibat dari permintaan pasar. Beberapa perajin batik dari kelompok masyarakat modern memodifikasi motif asli dengan motif baru yang disebut sebagai batik kontemporer. Batik kontemporer dinilai lebih cepat diproduksi dalam jumlah banyak, sehingga harganya relatif lebih murah. Namun, sebagian besar kelompok masyarakat tradisional masih mempertahankan keaslian batik Jetis yang menjadi warisan leluhur.</string>
+    <string name="detail_g">Masjid Agung Sidoarjo merupakan masjid terbesar di Kabupaten Sidoarjo, Jawa Timur (Jatim). Masjid ini berada di jalur Trans Jawa sehingga dapat disinggahi para pemudik yang melewati jalur tersebut. Lokasinya berada di Jalan Sultan Agung Nomor 36, Magersari, Kabupaten Sidoarjo. Masjid Agung Sidoarjo memiliki sejumlah daya tarik sehingga bisa menjadi alternatif destinasi wisata religi. Berikut beberapa daya tarik Masjid Agung Sidoarjo.
+Masjid Agung Sidoarjo merupakan masjid pertama di Jawa Timur yang memiliki fasilitas travelator. Masjid Kementerian Pariwisata dan Ekonomi Kreatif.  Fasilitas travelator tersebut berfungsi untuk memudahkan mobilitas jamaah lanjut usia (lansia) dan disabilitas. Mengutip laman Pemerintah Kabupaten Sidoarjo, fasilitas travelator tersebut diresmikan oleh Gubernur Jawa Timur Khofifah Indar Parawansa pada Senin (1/3/2021) lalu. Masjid Agung Sidoarjo didirikan pada 1859, sehingga usianya kini sudah mencapai 164 tahun. Masjid ini sudah mengalami beberapa kali renovasi sehingga masih kokoh berdiri. Pendirian Masjid Agung Sidoarjo berawal dari inisiatif bupati pertama Sidoaarjo, Raden  Adipati Pandji Tjondronegoro yang menjabat para periode 1882  hingga 1905. Untuk mengenang jasanya, mendiang Raden  Adipati Pandji Tjondronegoro serta keluarga Tjondronegoro dimakamkan di kompleks makam keluarga di belakang Masjid Agung Sidoarjo. </string>
+    <string name="detail_h">Nama Mpu Tantular sangat dekat dengan Bahasa Sanskerta dalam dunia sastra. Ini karena Mpu Tantular menggunakan Bahasa Sanskerta sebagai basis untuk karya-karyanya, yang sering kali mengambil bentuk puisi kakawin. Mpu Tantular hidup pada abad ke-14 di Majapahit sendiri adalah seorang pujangga ternama Sastra Jawa. Ia hidup pada pemerintahan raja Rājasanagara. Mpu Tantular masih termasuk saudara sang raja yaitu keponakan dan menantu adik wanita sang raja.
+Bahasa Sanskerta adalah bahasa kuno Asia Selatan yang merupakan cabang Indo-Arya dari rumpun bahasa Indo-Eropa. Bahasa ini berkembang di Asia Selatan setelah moyangnya mengalami difusi trans-budaya di wilayah barat laut Asia Selatan pada Zaman Perunggu. Bahasa Sanskerta adalah bahasa suci umat Hindu, Buddha dan Jain. Akan tetapi, artikel ini akan lebih fokus untuk mengenal Siapa Mpu Tantular, bukan Bahasa Sanskerta, nama "Tantular" terdiri dari dua kata: tan ("tidak") dan tular ("tular" atau "terpengaruhi"). Artinya ia adalah orang yang "teguh". Sedangkan kata mpu merupakan gelar, yang artinya adalah orang pandai atau tukang.
+Tantular adalah seorang penganut agama Buddha, tetapi ia orangnya terbuka terhadap agama lain, terutama agama Hindu-Siwa. Hal ini bisa terlihat pada dua kakawin atau syairnya yang ternama yaitu kakawin Arjunawijaya dan terutama kakawin atau Kitab Sutasoma.</string>
+    <string name="detail_i">Suncity Waterpark merupakan wahana bermain air di Sidoarjo yang ada sejak tahun 2004. Di Suncity Waterpark kamu bisa bermain wahana air yang ada di sini seperti water slides berbentuk spiral setinggi 15 meter, kolam arus, kolam balita hingga snow party. Khusus snow party hanya ada di jam-jam tertentu pada bari Sabtu, Minggu dan high season. Hari Sabtu pukul 10.00 WIB, Minggu dan high season pukul 10.00 dan 15.00 WIB.Fasilitas di sini lengkap mulai tempat parkir yang luas, kamar mandi, food court hingga musala. Suncity Waterpark berada di satu area dengan Suncity Mal. Puas bermain air, kamu bisa cuci mata di mal.Lokasi: Jalan Pahlawan No.1 SidoarjoWaktu operasional: Selasa-Minggu 08.00-17.00 WIBHarga: Selasa-Jumat Rp30.000, Sabtu-Minggu Rp40.000, high season Rp50.000</string>
+    <string name="detail_j">Dekat dengan Surabaya, Sidoarjo memiliki cukup banyak destinasi yang bisa dikunjungi untuk menghabiskan akhir pekan. Salah satunya Wisata Bahari Tlocor.Wisata Bahari Tlocor ini sebenarnya sebuah tempat perahu-perahu bersandar. Perahu ini biasanya mengantarkan para pengunjung ke Pulau Lusi.Karena tempatnya cukup estetik dan murah meriah, belakangan ini wisata ini jadi hits di kalangan anak muda. Bisa jadi inspirasi liburan akhir pekan bersama keluarga. Pantai Tlocor atau biasa juga disebut wisata bahari Tlocor adalah tempat perahu-perahu bersandar. Pantai Tlocor berlokasi di Sidoarjo. Buat yang sedang atau berencana liburan ke Sidoarjo, jangan lewatkan pesona Pantai Tlocor yang akhir-akhir ini digandrungi. Wisata ini cukup Instagramable dan murah meriah.
+Banyak warga yang menikmati akhir pekan di sini, menikmati pemandangan eksotis dari sungai yang dikelilingi pepohonan bakau.</string>
 </resources>

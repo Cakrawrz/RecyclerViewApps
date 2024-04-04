@@ -13,11 +13,67 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var heroList: ArrayList<Hero>
+    private lateinit var detailList: Array<String>
+    private lateinit var descList: Array<String>
+    private lateinit var imageList: Array<Int>
+    private lateinit var titleList: Array<String>
     private lateinit var heroAdapter: ListHeroAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        imageList = arrayOf(
+            R.drawable.alasprambon,
+            R.drawable.candipari,
+            R.drawable.candisumur,
+            R.drawable.gor,
+            R.drawable.jayandaru,
+            R.drawable.kampungjetis,
+            R.drawable.masjidagung,
+            R.drawable.museum,
+            R.drawable.suncity,
+            R.drawable.wisatatlocor
+        )
+
+        titleList = arrayOf(
+            "Wisata Alas Prambon",
+            "Monumen Candi Pari",
+            "Monumen Candi Sumur",
+            "GOR (Gedung Olahraga)",
+            "Monumen Jayandaru",
+            "Wisata Kampung Batik Jetis",
+            "Wisata Masjid Agung",
+            "Museum Mpu Tantular",
+            "Wisata Air Suncity",
+            "Wisata Alam Tlocor"
+        )
+
+        detailList = arrayOf(
+            "Wisata Edukasi dan Outbound",
+            "Peninggalan Kerajaan Majapahit",
+            "Peninggalan Prasasti pada masa Klasik di Sidoarjo",
+            "Kompleks Olahraga Stadion Gelora Delta Sidoarjo",
+            "Monumen Jayandaru pada Alun-Alun Sidoarjo",
+            "Kampung Batik Jetis Khas kerajinan Warga Sidoarjo",
+            "Masjid Agung untuk pengunjung Sidoarjo",
+            "Museum Mpu Tantular Menyimpan Banyak Prasasti",
+            "Wisata Kolam Renang Suncity Yang Terletak di Sidoarjo",
+            "Wisata Alam Tlocor Yang di Kelola oleh Pokdarwis bernama Pulau Lusi"
+        )
+
+        descList = arrayOf(
+            getString(R.string.detail_a),
+            getString(R.string.detail_b),
+            getString(R.string.detail_c),
+            getString(R.string.detail_d),
+            getString(R.string.detail_e),
+            getString(R.string.detail_f),
+            getString(R.string.detail_g),
+            getString(R.string.detail_h),
+            getString(R.string.detail_i),
+            getString(R.string.detail_j)
+        )
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -27,17 +83,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         heroList = ArrayList()
-
-        heroList.add(Hero("Wisata Alas Prambon", "Alas Prambon - Wisata edukasi dan outbound untuk anak di Sidoarjo.", R.drawable.alasprambon))
-        heroList.add(Hero("Monumen Candi Pari","Candi Pari merupakan peninggalan dari Kerajaan Majapahit.",R.drawable.candipari,))
-        heroList.add(Hero("Monumen Candi Sumur","Candi Sumur adalah sebuah peninggalan masa Klasik yang terletak di Kabupaten Sidoarjo.", R.drawable.candisumur,))
-        heroList.add(Hero("GOR (Gedung Olahraga)", "Kompleks olahraga ini menjadi rumah bagi Stadion Gelora Delta, Gedung Olahraga GOR Sidoarjo, Lapangan Tenis GOR Sidoarjo dan Kolam Renang GOR Sidoarjo.", R.drawable.gor,))
-        heroList.add(Hero("Monumen Jayandaru", "Monumen Jayandaru yang berlokasi di jantung Kabupaten Sidoarjo. Tepatnya di Jalan Jenggolo 21, Sidokumpul, Sidoarjo", R.drawable.jayandaru,))
-        heroList.add(Hero("Wisata Kampung Batik Jetis", "batik Jetis khas Sidoarjo masih menggunakan warna bawah hitam, seperti cokelat soga dan pola penggambaran yang sederhana.", R.drawable.kampungjetis,))
-        heroList.add(Hero("Wisata Masjid Agung", "Masjid Jamik Agung Sidoarjo atau sering disebut Masjid Agung Sidoarjo ini berdiri sejak tahun 1859", R.drawable.masjidagung,))
-        heroList.add(Hero("Museum Mpu Tantular", "museum ini bernama Stedelijk Historisch Museum Soerabaia, didirikan oleh Godfried von Faber pada tahun 1933 dan diresmikan pada tanggal 25 Juli 1937.", R.drawable.museum,))
-        heroList.add(Hero("Wisata Air Suncity", "Wisata kolam renang yang berlokasi di Sidoarjo.", R.drawable.suncity,))
-        heroList.add(Hero("Wisata Alam Tlocor", "Wisata bahari tlocor penyedia jasa penyebrangan ke pulau lusi yang dibentuk oleh pokdarwis dibawah naungan BUMDesa Desa Kedungoandan.", R.drawable.wisatatlocor,))
+        getData()
 
         heroAdapter = ListHeroAdapter(heroList)
         recyclerView.adapter = heroAdapter
@@ -46,6 +92,14 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, WisataActivity::class.java)
             intent.putExtra("hero", it)
             startActivity(intent)
+        }
+    }
+
+
+    private fun getData() {
+        for (i in imageList.indices) {
+            val hero = Hero(imageList[i], titleList[i], detailList[i], descList[i])
+            heroList.add(hero)
         }
     }
 

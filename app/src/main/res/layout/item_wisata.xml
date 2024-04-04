@@ -42,7 +42,7 @@
             tools:text="@string/heroes_name" />
 
         <TextView
-            android:id="@+id/tv_item_description"
+            android:id="@+id/tv_item_detail"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"

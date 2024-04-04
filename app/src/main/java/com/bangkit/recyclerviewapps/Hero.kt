@@ -6,22 +6,26 @@ import kotlinx.parcelize.Parcelize
 
 
 data class Hero(
+    val photo: Int,
     val name: String,
-    val description: String,
-    val photo: Int
+    val detail: String,
+    val description: String
+
 ) : Parcelable {
 
     constructor(parcel: Parcel) : this(
+        parcel.readInt(),
         parcel.readString()!!,
         parcel.readString()!!,
-        parcel.readInt()
-    ) {
-    }
+        parcel.readString()!!
+    )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
-        parcel.writeString(name)
-        parcel.writeString(description)
         parcel.writeInt(photo)
+        parcel.writeString(name)
+        parcel.writeString(detail)
+        parcel.writeString(description)
+
     }
 
     override fun describeContents(): Int {
